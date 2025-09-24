@@ -14,3 +14,15 @@ A responsive and interactive data table built with **React.js**. This project de
 - **Toggle Status**: Activate or Deactivate users.
 - **Export**: Export table data (all or selected rows) to PDF, CSV, or Excel.
 - **Responsive Design**: Optimized for desktop and mobile screens.
+
+## Technologies Used
+
+React.js
+JavaScript (ES6+)
+CSS3 (Responsive Design)
+jsPDF & jsPDF-AutoTable (for PDF export)
+
+## Live Demo
+
+You can view the live application here: [Dynamic Data Table] (https://dynamic-datatable.netlify.app/)
+
