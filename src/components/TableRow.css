@@ -1,0 +1,53 @@
+td button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  min-width: 100px; 
+}
+
+td button:nth-child(1) {
+  background: #28a745;
+  color: white;
+}
+td button:nth-child(1):hover {
+  background: #218838;
+}
+
+td button:nth-child(2) {
+  background: #dc3545;
+  color: white;
+}
+td button:nth-child(2):hover {
+  background: #c82333;
+}
+
+td button:nth-child(3) {
+  background: #17a2b8;
+  color: white;
+  min-width: 100px;
+  text-align: center;
+}
+td button:nth-child(3):hover {
+  background: #117a8b;
+}
+
+@media (max-width: 768px) {
+  td button {
+    padding: 5px 10px;
+    font-size: 13px;
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  td button {
+    padding: 4px 8px;
+    font-size: 12px;
+    min-width: 100px;
+  }
+}
