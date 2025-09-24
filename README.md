@@ -1,12 +1,16 @@
-# React + Vite
+# Dynamic Data Table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive data table built with **React.js**. This project demonstrates sorting, searching, filtering, pagination, row selection, and export functionality (PDF, CSV, Excel) using modern React features.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Dynamic Table**: Display data fetched from an API (`https://jsonplaceholder.typicode.com/users`).
+- **Sorting**: Sort table columns (Name, Email) in ascending/descending order.
+- **Search**: Filter table rows by name or email.
+- **Status Filter**: Filter users by status (Active / Inactive).
+- **Pagination**: Navigate through table data with paginated view.
+- **Row Selection**: Select individual or all rows.
+- **Edit & Delete**: Inline editing of Name and Email, delete rows dynamically.
+- **Toggle Status**: Activate or Deactivate users.
+- **Export**: Export table data (all or selected rows) to PDF, CSV, or Excel.
+- **Responsive Design**: Optimized for desktop and mobile screens.
