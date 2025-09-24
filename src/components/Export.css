@@ -1,0 +1,56 @@
+.export-buttons-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.main-buttons {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.export-btn-wrapper {
+  position: relative;
+}
+
+.export-btn-wrapper button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.export-btn-wrapper button:hover {
+  background-color: #218838;
+  transform: translateY(-1px);
+}
+
+.dropdown div {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.dropdown div:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 480px) {
+  .export-buttons-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .export-btn-wrapper button {
+    width: 100%;
+    font-size: 13px;
+    padding: 8px;
+  }
+}
