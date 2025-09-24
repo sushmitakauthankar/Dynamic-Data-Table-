@@ -17,10 +17,11 @@ A responsive and interactive data table built with **React.js**. This project de
 
 ## Technologies Used
 
-React.js
-JavaScript (ES6+)
-CSS3 (Responsive Design)
-jsPDF & jsPDF-AutoTable (for PDF export)
+- React.js
+- JavaScript (ES6+).
+- CSS3 (Responsive Design)
+- jsPDF & jsPDF-AutoTable (for PDF export)
+
 
 ## Live Demo
 
